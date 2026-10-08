@@ -1,0 +1,17 @@
+.git
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+research_paper_rag_prototype.ipynb
+tests/
+docs/screenshots/*.png
+storage/vectorstore/
+data/faiss_index/
+data/papers/*.pdf
+!data/papers/.gitkeep

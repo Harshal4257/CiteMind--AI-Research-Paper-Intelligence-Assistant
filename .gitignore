@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+storage/vectorstore/
+data/faiss_index/
+data/papers/*.pdf
+!data/papers/.gitkeep
+
